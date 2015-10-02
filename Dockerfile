@@ -9,6 +9,4 @@ RUN		echo "deb http://ppa.launchpad.net/yandex-load/main/ubuntu precise main" >>
 
 ADD 	./test/load.ini /test/load.ini
 WORKDIR /test
-ENTRYPOINT ["yandex-tank", "load.ini"]
-
-
+#ENTRYPOINT ["yandex-tank", "load.ini"]
